@@ -42,19 +42,12 @@ const botInfo = new Discord.MessageEmbed()
 	.setColor(botColorTheme)
 	.setTitle('♆ NepTune ♆')
 	.setURL('https://github.com/emilasheras/Micemi-Discord-Bots')
-//	.setAuthor('NEP', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
 	.setDescription('NepTune is a bot that will passively make playlists for you.')
-	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
-	.addFields(
-		{ name: 'Regular field title', value: 'Some value here' },
-		{ name: '\u200B', value: '\u200B' },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-	)
-	.addField('Inline field title', 'Some value here', true)
-	.setImage('https://i.imgur.com/wSTFkRM.png')
-	.setTimestamp()
-	.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+    .setThumbnail('https://i.imgur.com/XyLM2ln.jpg');
+    
+//  more info abt Embedded responses at: 
+//  https://discordjs.guide/popular-topics/embeds.html#embed-preview
+
 
 //  login as bot based on given Token
 client.login(botToken);
