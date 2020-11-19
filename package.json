@@ -1,0 +1,28 @@
+{
+  "name": "micemi-discord-bots",
+  "version": "1.0.0",
+  "description": "Bots de Discord de don MICEMI",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilasheras/Micemi-Discord-Bots.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "NodeJS"
+  ],
+  "author": "Emiliano Las Heras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilasheras/Micemi-Discord-Bots/issues"
+  },
+  "homepage": "https://github.com/emilasheras/Micemi-Discord-Bots#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
