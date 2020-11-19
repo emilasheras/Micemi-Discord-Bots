@@ -40,10 +40,10 @@ const botColorTheme = '#364DC0';
 //  embedded msg example
 const botInfo = new Discord.MessageEmbed()
 	.setColor(botColorTheme)
-	.setTitle('NepTune Info')
+	.setTitle('♆ NepTune ♆')
 	.setURL('https://github.com/emilasheras/Micemi-Discord-Bots')
 //	.setAuthor('NEP', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
-	.setDescription('NepTune is a bot for passive playlist making in the added server.')
+	.setDescription('NepTune is a bot that will passively make playlists for you.')
 	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
 	.addFields(
 		{ name: 'Regular field title', value: 'Some value here' },
